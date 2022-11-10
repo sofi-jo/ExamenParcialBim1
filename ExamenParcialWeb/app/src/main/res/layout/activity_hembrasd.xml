@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hembrasd">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Grasa Corporal Hembras"
+        android:textColor="#2C3250"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_calculoH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:background="#03A9F4"
+        android:text="Calcular"
+        android:textColor="#FFFFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_cphem" />
+
+    <EditText
+        android:id="@+id/et_hshem"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Medida desde la rodilla a la articulación del tarso (cm)"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <EditText
+        android:id="@+id/et_cphem"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Circunferencia Pelvica cm"
+        app:layout_constraintTop_toBottomOf="@+id/et_hshem"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <TextView
+        android:id="@+id/tv_gchembra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_calculoH"
+        tools:layout_editor_absoluteX="205dp" />
+</android.support.constraint.ConstraintLayout>

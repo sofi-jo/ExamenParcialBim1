@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ExamenParcialWeb</string>
+    <string name="title_activity_calculo_imc">CalculoIMC</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main2">MainActivity2</string>
+
+    <string-array name="Genero">
+        <item>Macho</item>
+        <item>Hembra</item>
+    </string-array>
+
+    <string-array name="Raza">
+        <item>Mini Toy (1 -6 kg)</item>
+        <item>Pequeñas (7 - 15 kg)</item>
+        <item>Medianas (14 - 27 kg)</item>
+        <item>Grandes (25 - 39 kg)</item>
+        <item>Gigantes (34 - 82 kg)</item>
+    </string-array>
+
+</resources>
